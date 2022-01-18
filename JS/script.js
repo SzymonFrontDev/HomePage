@@ -2,7 +2,7 @@
     const welcome = () =>
         console.log("HELLO!");
 
-    const ToggleBackground = () => {
+    const togglebackground = () => {
         const theme = document.querySelector(".js-theme");
         const body = document.querySelector(".js-body");
 
@@ -19,7 +19,7 @@
 
     const init = () => {
         const button = document.querySelector(".js-button");
-        button.addEventListener("click", ToggleBackground)
+        button.addEventListener("click", togglebackground)
         welcome();
     }
     init();
