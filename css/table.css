@@ -4,24 +4,24 @@
     margin-left: 100px;
 }
 
-.table__Cell {
+.table__cell {
     text-align: center;
     border: 1px solid rgb(0, 0, 0);
     padding: 20px;
     background-color: rgb(184, 184, 184);
 }
 
-.table__Cell:hover {
+.table__cell:hover {
     background-color: rgb(150, 150, 150);
 }
 
-.table__Header {
+.table--header {
     background-color: rgb(114, 114, 219);
     color: white;
     font-weight: normal;
 }
 
-.table__Header:hover {
+.table--header:hover {
     background-color: rgb(92, 92, 223);
 }
 

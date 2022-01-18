@@ -8,3 +8,11 @@
     padding-right: 15px;
     margin: 30px;
 }
+
+.section__link {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(137, 137, 175);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
